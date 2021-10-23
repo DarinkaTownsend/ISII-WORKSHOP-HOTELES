@@ -1,0 +1,769 @@
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:62[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:62[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:62[0m
+[0;32m    rule: [0mDataClass
+[0;32m    msg:  [0mDataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=18.182%, NOPA=0, NOAM=8, WMC=11)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:62[0m
+[0;32m    rule: [0mDataClass
+[0;32m    msg:  [0mDataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=18.182%, NOPA=0, NOAM=8, WMC=11)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m4:4[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m4:4[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mAvoidFieldNameMatchingMethodName
+[0;32m    msg:  [0mAvoidFieldNameMatchingMethodName: Field isValidLicense has the same name as a method
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mAvoidFieldNameMatchingMethodName
+[0;32m    msg:  [0mAvoidFieldNameMatchingMethodName: Field isValidLicense has the same name as a method
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m19:27[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m19:27[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m43:45[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m43:45[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m56:58[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m56:58[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/main.java[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m6:112[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m6:112[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m6:112[0m
+[0;32m    rule: [0mModifiedCyclomaticComplexity
+[0;32m    msg:  [0mModifiedCyclomaticComplexity: The class 'main' has a Modified Cyclomatic Complexity of 12 (Highest = 11).
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m6:112[0m
+[0;32m    rule: [0mModifiedCyclomaticComplexity
+[0;32m    msg:  [0mModifiedCyclomaticComplexity: The class 'main' has a Modified Cyclomatic Complexity of 12 (Highest = 11).
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m6:112[0m
+[0;32m    rule: [0mUseUtilityClass
+[0;32m    msg:  [0mUseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m6:112[0m
+[0;32m    rule: [0mUseUtilityClass
+[0;32m    msg:  [0mUseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mExcessiveMethodLength
+[0;32m    msg:  [0mExcessiveMethodLength: Avoid really long methods.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mExcessiveMethodLength
+[0;32m    msg:  [0mExcessiveMethodLength: Avoid really long methods.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mModifiedCyclomaticComplexity
+[0;32m    msg:  [0mModifiedCyclomaticComplexity: The method 'main' has a Modified Cyclomatic Complexity of 11.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mModifiedCyclomaticComplexity
+[0;32m    msg:  [0mModifiedCyclomaticComplexity: The method 'main' has a Modified Cyclomatic Complexity of 11.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mNPathComplexity
+[0;32m    msg:  [0mNPathComplexity: The method 'main(String)' has an NPath complexity of 1730, current threshold is 200
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mNPathComplexity
+[0;32m    msg:  [0mNPathComplexity: The method 'main(String)' has an NPath complexity of 1730, current threshold is 200
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mNcssCount
+[0;32m    msg:  [0mNcssCount: The method 'main(String)' has a NCSS line count of 63.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m8:110[0m
+[0;32m    rule: [0mNcssCount
+[0;32m    msg:  [0mNcssCount: The method 'main(String)' has a NCSS line count of 63.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m11:11[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m11:11[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m19:110[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'BasePremium' (lines '19'-'110').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m19:110[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'BasePremium' (lines '19'-'110').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m20:20[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m20:20[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m23:23[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m23:23[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m27:27[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m27:27[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m31:31[0m
+[0;32m    rule: [0mAvoidLiteralsInIfCondition
+[0;32m    msg:  [0mAvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m31:31[0m
+[0;32m    rule: [0mAvoidLiteralsInIfCondition
+[0;32m    msg:  [0mAvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m32:32[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m32:32[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m33:110[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'Seguro' (lines '33'-'110').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m33:110[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'Seguro' (lines '33'-'110').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m33:33[0m
+[0;32m    rule: [0mUnusedAssignment
+[0;32m    msg:  [0mUnusedAssignment: The value assigned to variable 'Seguro' is never used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m33:33[0m
+[0;32m    rule: [0mUnusedAssignment
+[0;32m    msg:  [0mUnusedAssignment: The value assigned to variable 'Seguro' is never used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m37:37[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m37:37[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m38:38[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m38:38[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m39:39[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m39:39[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m39:39[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m39:39[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m40:40[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m40:40[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m40:40[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m40:40[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m40:40[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m40:40[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m40:40[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m40:40[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m41:41[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m41:41[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m42:42[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m42:42[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m42:42[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m42:42[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m47:47[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m47:47[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m48:48[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m48:48[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m49:49[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m49:49[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m54:54[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m54:54[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m55:55[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m55:55[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m61:61[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m61:61[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m63:63[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m63:63[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m66:66[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m67:67[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m67:67[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m71:71[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m71:71[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m71:71[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m71:71[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m71:71[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m71:71[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m79:79[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m79:79[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m79:79[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m79:79[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m79:79[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m79:79[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m79:79[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m79:79[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m94:94[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m94:94[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m95:95[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.print is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m95:95[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.print is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m98:98[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m98:98[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m99:99[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/main.java[0m:[0;36m99:99[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+
+
+Summary:
+
+ec.edu.espol.workshops.CarInsurance : 9
+ec.edu.espol.workshops.main : 37
+[1;33m*[0m warnings: [1;37m152[0m
