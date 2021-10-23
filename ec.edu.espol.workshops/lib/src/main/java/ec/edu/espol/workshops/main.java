@@ -34,11 +34,12 @@ public class main {
 		}else {
 			
 			// GENDER
+			Scanner entradaEscaner2 = new Scanner (System.in);
 			System.out.println ("Please enter your gender (F/M): ");
-			CustomerGender = entradaEscaner.nextLine();
-			while(!CustomerGender.equals("F") || !CustomerGender.equals("M")) {
+			CustomerGender = entradaEscaner2.nextLine().strip().replace("\n", "");
+			while(!CustomerGender.equals("F") && !CustomerGender.equals("M")) {
 				System.out.println ("Please enter your gender in the correct form (F/M): ");
-				CustomerGender = entradaEscaner.nextLine();
+				CustomerGender = entradaEscaner2.nextLine().strip().replace("\n", "");
 			}
 			
 			// CIVIL STATUS
@@ -46,26 +47,25 @@ public class main {
 			System.out.println ("Please enter de number of your civil status:");
 			System.out.println ("1. Married");
 			System.out.println ("2. Not married\n");
+			Scanner entradaEscaner3 = new Scanner (System.in);
+			CivilStatus = entradaEscaner3.nextLine();
 			
-			CivilStatus = entradaEscaner.nextLine();
-			
-			while(!CivilStatus.equals("1")|| !CivilStatus.equals("2")) {
+			while(!CivilStatus.equals("1") && !CivilStatus.equals("2")) {
 				System.out.println ("Please enter de NUMBER of your civil status:");
 				System.out.println ("1. Married");
 				System.out.println ("2. Not married\n");
-				CivilStatus = entradaEscaner.nextLine();
+				CivilStatus = entradaEscaner3.nextLine();
 			}
 			
 			// LICENSE
-			
 			System.out.println ("¿Your license is valid? (Y/N):");
 			String condi;
+			Scanner entradaEscaner4 = new Scanner (System.in);
+			condi = entradaEscaner4.nextLine();
 			
-			condi = entradaEscaner.nextLine();
-			
-			while(!condi.equals("Y")|| !condi.equals("N")){
+			while(!condi.equals("Y") && !condi.equals("N")){
 				System.out.println ("Please enter (Y/N) ¿Your license is valid?:");
-				condi = entradaEscaner.nextLine();
+				condi = entradaEscaner4.nextLine();
 			}
 			
 			if(condi.equals("Y")) {
@@ -87,15 +87,16 @@ public class main {
 			}else {
 				Seguro=-1;
 			}
+			
 			CarInsurance insu = new CarInsurance(CustomerAge, CustomerGender, CivilStatus, isValidLicense,Seguro);
 			
 			if(insu.getSeguro()==-1) {
 				System.out.println("Sorry but you are not available to have a car insurance");
-				System.out.printf("Your car insurance is: ",insu.getSeguro());
+				System.out.print("Your car insurance is: "+ insu.getSeguro());
 				
 			}else {
 				System.out.println("¡Congratulations!");
-				System.out.printf("You are available to have a car insurance of $",insu.getSeguro());
+				System.out.println("You are available to have a car insurance of $" + insu.getSeguro());
 			}
 			
 		}
