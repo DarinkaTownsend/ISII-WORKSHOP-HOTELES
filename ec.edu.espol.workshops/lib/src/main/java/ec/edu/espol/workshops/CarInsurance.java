@@ -1,9 +1,9 @@
 package ec.edu.espol.workshops;
  
 public class CarInsurance {
-	private int CustomerAge;
-	private String CustomerGender;
-	private String CivilStatus;
+private int customerage;
+private String customerGender;
+private String civilStatus;
 	
 	private boolean isValidLicense;
 	private double seguro;
@@ -13,15 +13,15 @@ public class CarInsurance {
 	//constructor
 	
 	public void setCustomerAge(int customerAge) {
-		CustomerAge = customerAge;
+		customerage = customerAge;
 	}
 	
 	public CarInsurance(int customerAge, String customerGender, String civilStatus, boolean isValidLicense,
 			double seguro) {
 		super();
-		CustomerAge = customerAge;
-		CustomerGender = customerGender;
-		CivilStatus = civilStatus;
+		customerage = customerAge;
+		customerGender = customerGender;
+		civilStatus = civilStatus;
 		this.isValidLicense = isValidLicense;
 		this.seguro = seguro;
 	}
@@ -37,22 +37,22 @@ public class CarInsurance {
 	}
 
 	public void setCustomerGender(String customerGender) {
-		CustomerGender = customerGender;
+		customerGender = customerGender;
 	}
 	public void setCivilStatus(String civilStatus) {
-		CivilStatus = civilStatus;
+		civilStatus = civilStatus;
 	}
 	public void setValidLicense(boolean isValidLicense) {
 		this.isValidLicense = isValidLicense;
 	}
 	public int getCustomerAge() {
-		return CustomerAge;
+		return customerage;
 	}
 	public String getCustomerGender() {
-		return CustomerGender;
+		return customerGender;
 	}
 	public String getCivilStatus() {
-		return CivilStatus;
+		return civilStatus;
 	}
 	
 	public boolean isValidLicense() {

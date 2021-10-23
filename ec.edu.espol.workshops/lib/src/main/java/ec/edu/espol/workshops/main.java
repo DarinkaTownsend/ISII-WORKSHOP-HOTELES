@@ -3,12 +3,12 @@ package ec.edu.espol.workshops;
 import java.util.Scanner;
 
 
-public class main {
+public class  main {
 
 	public static void main(String[] args) {
 		
-		System.out.println ("¡WELCOME TO YOU CAR-INSURANCE!");
-		System.out.println ("------------------------------------------");
+	System.out.println ("¡WELCOME TO YOU CAR-INSURANCE!");
+	System.out.println ("------------------------------------------");
 		
 		
 		
@@ -29,7 +29,7 @@ public class main {
 			CustomerAge = entradaEscaner.nextInt();
 		}
 		
-		if(CustomerAge>=80) {
+		if(CustomerAge>=80){
 			System.out.println ("Sorry you are not allowed to have a car insurance");
 			
 		}else {
