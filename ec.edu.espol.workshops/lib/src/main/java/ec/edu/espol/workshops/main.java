@@ -11,6 +11,7 @@ public class main {
 		System.out.println ("------------------------------------------");
 		
 		
+		
 		int CustomerAge;
 		String CustomerGender;
 		String CivilStatus;		
@@ -30,13 +31,13 @@ public class main {
 		
 		if(CustomerAge>=80) {
 			System.out.println ("Sorry you are not allowed to have a car insurance");
-			Seguro=-1;
+			
 		}else {
 			
 			// GENDER
 			Scanner entradaEscaner2 = new Scanner (System.in);
 			System.out.println ("Please enter your gender (F/M): ");
-			CustomerGender = entradaEscaner2.nextLine().strip().replace("\n", "");
+			CustomerGender = entradaEscaner2.nextLine();
 			while(!CustomerGender.equals("F") && !CustomerGender.equals("M")) {
 				System.out.println ("Please enter your gender in the correct form (F/M): ");
 				CustomerGender = entradaEscaner2.nextLine().strip().replace("\n", "");
@@ -79,9 +80,10 @@ public class main {
 			if(CustomerGender.equals("M")&&CivilStatus.equals("2")&&CustomerAge<25) {
 				Seguro = 1500 + BasePremium;
 			}
-			else if(CustomerGender.equals("F")||CivilStatus.equals("1")){
+			else if(CivilStatus.equals("1")||CustomerGender.equals("F")){
 				Seguro = BasePremium-200;
 			}
+			
 			else if(CustomerAge>=45&&CustomerAge<65) {
 				Seguro = BasePremium-100;
 			}else {

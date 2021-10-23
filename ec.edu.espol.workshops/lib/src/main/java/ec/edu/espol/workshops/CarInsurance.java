@@ -29,6 +29,8 @@ public class CarInsurance {
 	public double getSeguro() {
 		return seguro;
 	}
+	
+	
 
 	public void setSeguro(int seguro) {
 		this.seguro = seguro;
