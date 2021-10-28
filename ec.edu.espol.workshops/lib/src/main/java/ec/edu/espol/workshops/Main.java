@@ -3,11 +3,11 @@ package ec.edu.espol.workshops;
 import java.util.Scanner;
 
 
-public class  main {
+public class  Main {
 
 	public static void main(String[] args) {
 		
-		long TInicio, TFin, tiempo; //Variables para determinar el tiempo de ejecución
+		long TInicio, TFin, tiempo; 
 		TInicio = System.currentTimeMillis(); 
 		System.out.println ("¡WELCOME TO YOU CAR-INSURANCE!");
 		System.out.println ("------------------------------------------");
@@ -42,7 +42,7 @@ public class  main {
 			CustomerGender = entradaEscaner2.nextLine();
 			while(!CustomerGender.equals("F") && !CustomerGender.equals("M")) {
 				System.out.println ("Please enter your gender in the correct form (F/M): ");
-				CustomerGender = entradaEscaner2.nextLine().strip().replace("\n", "");
+				CustomerGender = entradaEscaner2.nextLine();
 			}
 			
 			// CIVIL STATUS
