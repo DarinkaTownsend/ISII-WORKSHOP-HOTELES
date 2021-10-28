@@ -5,9 +5,24 @@ import java.util.Scanner;
 
 public class  Main {
 
-	public static void main(String[] args) {
-		
-		long TInicio, TFin, tiempo; 
+	public static boolean isNumeric(String cadena) {
+
+        boolean resultado;
+
+        try {
+            Integer.parseInt(cadena);
+            resultado = true;
+        } catch (NumberFormatException excepcion) {
+            resultado = false;
+        }
+
+        return resultado;
+    }
+
+
+    public static void main(String[] args) {
+        
+        long TInicio, TFin, tiempo; 
 		TInicio = System.currentTimeMillis(); 
 		System.out.println ("¡WELCOME TO YOU CAR-INSURANCE!");
 		System.out.println ("------------------------------------------");
@@ -24,8 +39,14 @@ public class  Main {
        
 		//AGE
 		System.out.println ("Please enter your age: ");
-		CustomerAge = entradaEscaner.nextInt(); 
-	
+		String CustomerAge2 = entradaEscaner.nextLine(); 
+                
+                while(!isNumeric(CustomerAge2)){
+                    System.out.println("Please enter a number:");
+                    CustomerAge2 = entradaEscaner.nextLine();                     
+                }
+                
+                CustomerAge=Integer.parseInt(CustomerAge2);
 		while(CustomerAge<=0) {
 			System.out.println ("Please enter a real age: ");
 			CustomerAge = entradaEscaner.nextInt();
@@ -112,7 +133,9 @@ public class  Main {
 		tiempo = TFin - TInicio; //Calculamos los milisegundos de diferencia
 		System.out.println("Tiempo de ejecución en milisegundos: " + tiempo); //Mostramos en pantalla el tiempo de ejecución en milisegundos
 		
-
-	}
+        
+        
+        
+    }
 
 }
