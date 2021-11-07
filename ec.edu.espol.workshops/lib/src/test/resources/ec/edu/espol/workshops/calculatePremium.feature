@@ -17,8 +17,8 @@ Examples:
 
 | Age	| answer | 
 
-| <80	| Sorry you are not allowed to have a car insurance | 
+|  80	| Sorry you are not allowed to have a car insurance | 
 
-| =80	| Sorry you are not allowed to have a car insurance | 
+|  80	| Sorry you are not allowed to have a car insurance | 
 
 | anything else! | The program have to validate more things | 
