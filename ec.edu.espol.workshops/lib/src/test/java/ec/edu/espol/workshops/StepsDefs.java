@@ -4,23 +4,23 @@ import io.cucumber.java.en.Given; import io.cucumber.java.en.Then; import io.cuc
 
 import static org.junit.Assert.*; public class StepsDefs { 
 
-private int age; 
+private String age; 
 
 private String actualAnswer; 
 
  
 
-@Given(80) public void InsuranceCar() { 
+@Given("80") public void InsuranceCar() { 
 
-age = 80; 
+age = "80"; 
 
 } 
 
  
 
-@Given("age is {int}") 
+@Given("age is {String}") 
 
-public void Age_is(int age) { this.age = age; 
+public void Age_is(String age) { this.age = age; 
 
 } 
 
