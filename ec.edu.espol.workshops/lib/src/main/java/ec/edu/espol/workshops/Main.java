@@ -52,8 +52,9 @@ public class  Main {
 			CustomerAge = entradaEscaner.nextInt();
 		}
 		
-		if(CustomerAge>=80){
+		if(CustomerAge>=80 || CustomerAge<18){
 			System.out.println ("Sorry you are not allowed to have a car insurance");
+                        Seguro=-1;
 			
 		}else {
 			
@@ -100,14 +101,14 @@ public class  Main {
 			
 			//DETERMINATED THE CAR INSURANCE VALUE
 			
-			if(CustomerGender.equals("M")&&CivilStatus.equals("2")&&CustomerAge<25) {
+			if(CustomerGender.equals("M")&&CivilStatus.equals("2")&&CustomerAge<25 && isValidLicense) {
 				Seguro = 1500 + BasePremium;
 			}
-			else if(CivilStatus.equals("1")||CustomerGender.equals("F")){
+			else if((CivilStatus.equals("1")||CustomerGender.equals("F") )&& isValidLicense){
 				Seguro = BasePremium-200;
 			}
 			
-			else if(CustomerAge>=45&&CustomerAge<65) {
+			else if(CustomerAge>=45&&CustomerAge<65 && isValidLicense) {
 				Seguro = BasePremium-100;
 			}else {
 				Seguro=-1;
@@ -137,5 +138,5 @@ public class  Main {
         
         
     }
-
+    
 }
