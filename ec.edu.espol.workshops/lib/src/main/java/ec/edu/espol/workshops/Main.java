@@ -53,7 +53,7 @@ public class  Main {
 		}
 		
 		if(CustomerAge>=80 || CustomerAge<18){
-			System.out.println ("Sorry you are not allowed to have a car insurance");
+			System.out.println ("Sorry you are not allowed to have a car insurance:");
                         Seguro=-1;
 			
 		}else {
