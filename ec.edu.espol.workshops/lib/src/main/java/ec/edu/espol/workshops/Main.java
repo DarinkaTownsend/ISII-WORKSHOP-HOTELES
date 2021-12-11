@@ -34,7 +34,7 @@ public class  Main {
 		String CivilStatus;		
 		boolean isValidLicense;
 		double Seguro;
-		final double BasePremium = 500;
+		final double BasePremium = 600;
 		Scanner entradaEscaner = new Scanner (System.in);
        
 		//AGE
