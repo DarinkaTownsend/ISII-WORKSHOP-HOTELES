@@ -1,13 +1,18 @@
 package ec.edu.espol.workshops;
- 
+
+import java.util.Scanner;
+
 public class CarInsurance {
 private int customerage;
 private String customerGender;
 private String civilStatus;
-	
-	private boolean isValidLicense;
-	private double seguro;
+private boolean isValidLicense;
+private double seguro;
+final double BasePremium = 600;
 	// To DO make logical process of car Insurance
+	
+	
+	
 	
 	
 	//constructor
@@ -24,6 +29,10 @@ private String civilStatus;
 		civilStatus = civilStatus;
 		this.isValidLicense = isValidLicense;
 		this.seguro = seguro;
+	}
+
+	public CarInsurance() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public double getSeguro() {
@@ -58,6 +67,28 @@ private String civilStatus;
 	public boolean isValidLicense() {
 		return isValidLicense;
 	}
+	
+	public double CalcularSeguro() {	
+		
+		//DETERMINATED THE CAR INSURANCE VALUE
+		
+		if(customerGender.equals("M")&&civilStatus.equals("2")&&customerage<25 && isValidLicense) {
+			seguro = 1500 + BasePremium;
+		}
+		else if((civilStatus.equals("1")||customerGender.equals("F") )&& isValidLicense){
+			seguro = BasePremium-200;
+		}
+		
+		else if(customerage>=45&&customerage<65 && isValidLicense) {
+			seguro = BasePremium-100;
+		}else {
+			seguro=-1;
+		}
+	
+	
+	
+	return seguro;
+}
 	
 	
 	

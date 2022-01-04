@@ -99,20 +99,7 @@ public class  Main {
 				isValidLicense=false;
 			}
 			
-			//DETERMINATED THE CAR INSURANCE VALUE
 			
-			if(CustomerGender.equals("M")&&CivilStatus.equals("2")&&CustomerAge<25 && isValidLicense) {
-				Seguro = 1500 + BasePremium;
-			}
-			else if((CivilStatus.equals("1")||CustomerGender.equals("F") )&& isValidLicense){
-				Seguro = BasePremium-200;
-			}
-			
-			else if(CustomerAge>=45&&CustomerAge<65 && isValidLicense) {
-				Seguro = BasePremium-100;
-			}else {
-				Seguro=-1;
-			}
 			
 			CarInsurance insu = new CarInsurance(CustomerAge, CustomerGender, CivilStatus, isValidLicense,Seguro);
 			
