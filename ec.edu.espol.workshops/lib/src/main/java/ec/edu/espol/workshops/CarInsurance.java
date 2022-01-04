@@ -21,14 +21,13 @@ final double BasePremium = 600;
 		customerage = customerAge;
 	}
 	
-	public CarInsurance(int customerAge, String customerGender, String civilStatus, boolean isValidLicense,
-			double seguro) {
+	public CarInsurance(int customerAge, String customerGender, String civilStatus, boolean isValidLicense) {
 		super();
 		customerage = customerAge;
 		customerGender = customerGender;
 		civilStatus = civilStatus;
 		this.isValidLicense = isValidLicense;
-		this.seguro = seguro;
+		
 	}
 
 	public CarInsurance() {

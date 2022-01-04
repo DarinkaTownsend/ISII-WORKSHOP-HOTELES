@@ -101,9 +101,10 @@ public class  Main {
 			
 			
 			
-			CarInsurance insu = new CarInsurance(CustomerAge, CustomerGender, CivilStatus, isValidLicense,Seguro);
+			CarInsurance insu = new CarInsurance(CustomerAge, CustomerGender, CivilStatus, isValidLicense);
 			
-			if(insu.getSeguro()==-1) {
+			double seg=insu.CalcularSeguro();
+			if(seg==-1) {
 				System.out.println("Sorry but you are not available to have a car insurance");
 				System.out.print("Your car insurance is: "+ insu.getSeguro());
 				
