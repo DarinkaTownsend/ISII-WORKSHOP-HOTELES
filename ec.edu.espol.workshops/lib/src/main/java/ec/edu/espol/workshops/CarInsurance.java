@@ -71,11 +71,20 @@ final double BasePremium = 600;
 		
 		//DETERMINATED THE CAR INSURANCE VALUE
 		
+		
 		if(customerGender.equals("M")&&civilStatus.equals("2")&&customerage<25 && isValidLicense) {
 			seguro = 1500 + BasePremium;
 		}
 		else if((civilStatus.equals("1")||customerGender.equals("F") )&& isValidLicense){
 			seguro = BasePremium-200;
+		}
+		
+		else if(civilStatus.equals("1")&&customerage>30 && customerage<60) {
+			seguro = BasePremium-50;
+		}
+		
+		else if(civilStatus.equals("2") && customerGender.equals("F") && customerage>60) {
+			seguro = BasePremium-50;
 		}
 		
 		else if(customerage>=45&&customerage<65 && isValidLicense) {

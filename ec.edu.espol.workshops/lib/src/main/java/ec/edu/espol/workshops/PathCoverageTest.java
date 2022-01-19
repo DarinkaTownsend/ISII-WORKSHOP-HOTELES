@@ -9,9 +9,9 @@ public class PathCoverageTest {
 	
 	
 	
-	//TEST TC7
+	//TEST TC17
 	@test
-	public void testTC7() {
+	public void testTC17() {
 	 seguro.setCustomerAge(-1);;
 	 seguro.setCustomerGender("F");
 	 seguro.setCivilStatus("1");
@@ -21,9 +21,9 @@ public class PathCoverageTest {
 	 assertEqueals(-1,valorSeguro);
 	}
 	
-	//TEST TC8
+	//TEST TC18
 	@test
-	public void testTC8() {
+	public void testTC18() {
 	 seguro.setCustomerAge(17);
 	 seguro.setCustomerGender("M");
 	 seguro.setCivilStatus("1");
@@ -33,9 +33,9 @@ public class PathCoverageTest {
 	 assertEqueals(-1,valorSeguro);
 	}
 	
-	//TEST TC9
+	//TEST TC19
 	@test
-	public void testTC9() {
+	public void testTC19() {
 	 seguro.setCustomerAge(19);
 	 seguro.setCustomerGender("S");
 	 seguro.setCivilStatus(1);
@@ -46,7 +46,7 @@ public class PathCoverageTest {
 	 assertEqueals(-1,valorSeguro);
 	}
 	
-	//TEST TC10
+	//TEST TC20
 	@test
 	public void testTC10() {
 	 seguro.setCustomerAge(19);
