@@ -80,7 +80,7 @@ final double BasePremium = 600;
 		}
 		
 		else if(civilStatus.equals("1")&&customerage>30 && customerage<60) {
-			seguro = BasePremium-50;
+			seguro = BasePremium-100;
 		}
 		
 		else if(civilStatus.equals("2") && customerGender.equals("F") && customerage>60) {
