@@ -79,18 +79,19 @@ final double BasePremium = 600;
 			seguro = BasePremium-200;
 		}
 		
-		else if(civilStatus.equals("1")&&customerage>30 && customerage<60) {
+				
+		else if(customerage>=45&&customerage<65 && isValidLicense) {
+			seguro = BasePremium-100;
+		}else {
+			seguro=-1;
+		}
+		
+		if(civilStatus.equals("1")&&customerage>30 && customerage<60) {
 			seguro = BasePremium-100;
 		}
 		
 		else if(civilStatus.equals("2") && customerGender.equals("F") && customerage>60) {
 			seguro = BasePremium-50;
-		}
-		
-		else if(customerage>=45&&customerage<65 && isValidLicense) {
-			seguro = BasePremium-100;
-		}else {
-			seguro=-1;
 		}
 	
 	
